@@ -6,3 +6,7 @@ echo $MYSTRING
 # simple usage of pipe with sed (stream editor for filtering/transforming text)
 #ls -l | sed -e "s/[aeio]/u/g"
 #cat report.txt | sed 's/Nick/John/g' > report_new.txt
+
+# print today
+MYDATE=$(date +%Y%m%d)
+echo $MYDATE
