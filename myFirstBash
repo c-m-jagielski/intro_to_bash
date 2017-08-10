@@ -1,5 +1,7 @@
 #!/bin/bash
-echo Hello World
+
+MYSTRING="Hello World"  #variables are all caps
+echo $MYSTRING
 
 # simple usage of pipe with sed (stream editor for filtering/transforming text)
 #ls -l | sed -e "s/[aeio]/u/g"
